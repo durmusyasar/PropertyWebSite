@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "angular-drms"
+  },
+  "targets": {
+    "angular-drms": {
+      "hosting": {
+        "Angular-Project": [
+          "angular-drms"
+        ]
+      }
+    }
+  }
+}
