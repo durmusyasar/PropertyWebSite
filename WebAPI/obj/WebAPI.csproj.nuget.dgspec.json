@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Angular-Project\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Teknar\\Documents\\GitHub\\PropertyWebSite\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Angular-Project\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Teknar\\Documents\\GitHub\\PropertyWebSite\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Angular-Project\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Teknar\\Documents\\GitHub\\PropertyWebSite\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\DELL\\Angular-Project\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Angular-Project\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Teknar\\Documents\\GitHub\\PropertyWebSite\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Teknar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Teknar\\Documents\\GitHub\\PropertyWebSite\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Teknar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,11 +22,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/cacheoff/_packaging/NugetRepo/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +38,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -70,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

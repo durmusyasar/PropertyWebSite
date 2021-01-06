@@ -4,7 +4,8 @@ namespace WebAPI.Interfaces
 {
     public interface IUnitOfWork
     {
-         ICityRepository CityRepository{get;}
-         Task<bool> SaveAsync();
+        ICityRepository CityRepository { get; }
+        IUserRepository UserRepository { get; }
+        Task<bool> SaveAsync();
     }
 }
